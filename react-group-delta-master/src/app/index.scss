@@ -8,7 +8,9 @@
   position: relative;
   h1 {
     font-size: 24px;
-    font-weight: 700;
+  }
+  hr {
+    border: 1px solid #989595;
   }
   &--contact {
     font-weight: 700;
@@ -34,5 +36,59 @@
     width: 45em;
     margin-top: 20px;
     font-style: italic;
+  }
+}
+
+main {
+  .Section {
+    display: flex;
+    min-height: 100px;
+    padding: 10px 0;
+    &--left {
+      flex: 1;
+      padding: 0 20px;
+      position: relative;
+      font-style: italic;
+      h3 {
+        text-align: right;
+      }
+      &:after {
+        content: '';
+        height: 100px;
+        width: 2px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #989595;
+      }
+    }
+    &--right {
+      flex: 6;
+      padding: 0 20px;
+      &-job-title {
+        display: flex;
+        justify-content: space-between;
+        span {
+          font-size: 14px;
+          color: #989595;
+          opacity: 0.75;
+          font-style: italic;
+          padding-left: 25px;
+          line-height: 22px;
+        }
+      }
+      p span {
+        font-weight: 700;
+      }
+      div {
+        padding-bottom: 15px;
+        &:nth-last-child(1) {
+          padding-bottom: 0px;
+        }
+      }
+      ul {
+        list-style: disc inside;
+      }
+    }
   }
 }

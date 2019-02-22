@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 import './index.scss';
+// import './NB_pic.PNG';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           </p>
           <img
             className="Header--profile-picture"
-            src="https://openclipart.org/download/211821/matt-icons_preferences-desktop-personal.svg"
+            src={require('./NB_pic.PNG')}
             alt="This is me"
           />
         </header>
@@ -127,8 +128,20 @@ function App() {
         </main>
       </div>
       <footer className="Footer">
-        <FaGithubSquare />
-        <FaLinkedin />
+        <a
+          href="https://github.com/Nerkacode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithubSquare />
+        </a>
+        <a
+          href="https://lt.linkedin.com/in/nerijus-bareikis-2a63a2129"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
       </footer>
     </React.Fragment>
   );

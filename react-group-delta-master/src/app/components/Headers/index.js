@@ -1,36 +1,33 @@
 import React from 'react';
+import data from './data';
 
 import './index.scss';
+
+// zemiau esancioje funkcijoje figuriniuose skliaustuose {} rasome paprasta js scripta
 
 function Header() {
   return (
     <header className="Header">
-      <h1>Nerijus</h1>
+      <h1>{data.name}</h1>
       <hr />
-      <p className="Header--contact">Phone: +370 688 88888</p>
       <p className="Header--contact">
-        Email:{' '}
+        {data.contacts.phone.label} {data.contacts.phone.value}
+      </p>
+      <p className="Header--contact">
+        {data.contacts.email.label}{' '}
         <a
-          href="mailto:nerijus.bareikis@gmail.com"
+          href={`mailto:${data.contacts.email.value}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          nerijus.bareikis@gmail.com
+          {data.contacts.email.value}
         </a>
       </p>
-      <p className="Header--summary">
-        Pastry pie cotton candy jelly lollipop chocolate bar pastry tootsie
-        roll. Brownie soufflé liquorice pudding muffin. Sugar plum toffee oat
-        cake gummies lollipop icing. Bonbon chocolate bar chocolate cake
-        marzipan candy canes. Gingerbread halvah wafer cotton candy marzipan
-        candy canes candy carrot cake. Oat cake carrot cake powder bear claw
-        biscuit sweet roll. Muffin topping ice cream soufflé sweet roll oat cake
-        chocolate bar pastry.
-      </p>
+      <p className="Header--summary">{data.summary}</p>
       <img
         className="Header--profile-picture"
-        src={require('./NB_pic.PNG')}
-        alt="This is me"
+        src={data.picture.src}
+        alt={data.picture.alt}
       />
     </header>
   );

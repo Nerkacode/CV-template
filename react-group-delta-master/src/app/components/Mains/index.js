@@ -1,4 +1,5 @@
 import React from 'react';
+import { education, skills, experiance, hobies, references } from './data';
 
 import './index.scss';
 
@@ -7,89 +8,71 @@ function Main() {
     <main>
       <section className="Section">
         <div className="Section--left">
-          <h3>Education</h3>
+          <h3>{education.label}</h3>
         </div>
         <div className="Section--right">
-          <h3>Vilnius Gediminas Technical University</h3>
+          <h3>{education.school}</h3>
           <p>
-            <span>Major: </span>
-            Engineer
+            <span>{education.major.label} </span>
+            {education.major.value}
           </p>
           <p>
-            <span>Minor: </span>
-            Brave Engineer
+            <span>{education.minor.label} </span>
+            {education.minor.value}
           </p>
         </div>
       </section>
       <section className="Section">
         <div className="Section--left">
-          <h3>Skills</h3>
+          <h3>{skills.label}</h3>
         </div>
         <div className="Section--right">
-          <div>
-            <h3>Office skills</h3>
-            <p>
-              Pastry pie cotton candy jelly lollipop chocolate bar pastry
-              tootsie roll. Brownie soufflé liquorice pudding muffin. Sugar plum
-              toffee oat cake gummies lollipop icing.{' '}
-            </p>
-          </div>
-          <div>
-            <h3>Computer skills</h3>
-            <p>
-              Bonbon chocolate bar chocolate cake marzipan candy canes.
-              Gingerbread halvah wafer cotton candy marzipan candy canes candy
-              carrot cake. Oat cake carrot cake powder bear claw biscuit sweet
-              roll.{' '}
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="Section">
-        <div className="Section--left">
-          <h3>Experience</h3>
-        </div>
-        <div className="Section--right">
-          <div>
-            <div className="Section--right-job-title">
-              <h3>Code Academy</h3>
-              <span>Student, 2018.10 - present</span>
+          {skills.list.map(({ title, discription }, index) => (
+            <div key={index}>
+              <h3>{title}</h3>
+              <p>{discription}</p>
             </div>
-            <ul>
-              <li>HTML</li>
-              <li>SCC/SCSS</li>
-              <li>JavaScript</li>
-              <li>Node.js</li>
-              <li>React.js</li>
-            </ul>
-          </div>
-          <div>
-            <div className="Section--right-job-title">
-              <h3>The School of Life</h3>
-              <span>Human, 1985.12 - present</span>
-            </div>
-            <ul>
-              <li>Eating</li>
-              <li>Running</li>
-              <li>Smiling</li>
-            </ul>
-          </div>
+          ))}
         </div>
       </section>
       <section className="Section">
         <div className="Section--left">
-          <h3>Hobbies</h3>
+          <h3>{experiance.label}</h3>
         </div>
         <div className="Section--right">
-          <p>Traveling, Playing baskelball, Coding...</p>
+          {experiance.list.map(
+            ({ title, subtitle, responsibilities }, index) => (
+              <div key={index}>
+                <div className="Section--right-job-title">
+                  <h3>{title}</h3>
+                  <span>{subtitle}</span>
+                </div>
+                <ul>
+                  {responsibilities.map((value, i) => (
+                    <li key={i}>{value}</li>
+                  ))}
+                </ul>
+              </div>
+            )
+          )}
         </div>
       </section>
       <section className="Section">
         <div className="Section--left">
-          <h3>References</h3>
+          <h3>{hobies.label}</h3>
         </div>
         <div className="Section--right">
-          <p>Available on request</p>
+          {hobies.list.map((value, i) => (
+            <span key={i}> {value} </span>
+          ))}
+        </div>
+      </section>
+      <section className="Section">
+        <div className="Section--left">
+          <h3>{references.en.label}</h3>
+        </div>
+        <div className="Section--right">
+          <p>{references.en.list}</p>
         </div>
       </section>
     </main>

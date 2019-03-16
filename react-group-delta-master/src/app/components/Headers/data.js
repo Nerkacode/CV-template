@@ -4,11 +4,11 @@ import me from './NB_pic.PNG';
 
 const data = {
   en: {
-    name: 'Nerijus',
+    name: 'Nerijus Bareikis',
     contacts: {
       phone: {
         label: 'Phone:',
-        value: '+370 688 88888',
+        value: '+370 615 60354',
       },
       email: {
         label: 'Email:',
@@ -23,11 +23,11 @@ const data = {
     },
   },
   lt: {
-    name: 'Nerijus',
+    name: 'Nerijus Bareikis',
     contacts: {
       phone: {
         label: 'Telefonas:',
-        value: '+370 688 88888',
+        value: '+370 615 60354',
       },
       email: {
         label: 'El. paštas:',

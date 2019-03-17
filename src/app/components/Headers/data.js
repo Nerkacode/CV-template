@@ -17,7 +17,7 @@ const data = {
     },
     location: 'Vilnius, Lithuania',
     summary:
-      'Innovative solution seeker and planner. Excited about my career as a web developer. Persistent on learning new things, honest and friendly. Always oriented and concentrated on teamwork rezults.',
+      'Innovative solution seeker and planner. Excited about my career as a web developer. Persistent on learning new things, honest and friendly. Always oriented and concentrated on teamwork results.',
     picture: {
       alt: 'NerijusB',
       src: me,
@@ -37,7 +37,7 @@ const data = {
     },
     location: 'Vilnius, Lietuva',
     summary:
-      'Inovatyvus sprendimo ieškotojas ir planuotojas. Sužavėtas savo programuotojo karjera. Užsispyręs išmokti naujų dalykų, sąžiningas ir draugiškas. Nuolatos orientuotas ir susikoncentravęs ties komndinio darbo rezultatais.',
+      'Inovatyvių sprendimų ieškotojas ir planuotojas. Siekiantis karjeros programavimo srityje. Atkaklus, norintis nuolat tobulėti, sąžiningas ir draugiškas. Nuolatos orientuotas ir susikoncentravęs ties komandinio darbo rezultatais.',
     picture: {
       alt: 'NerijusB',
       src: me,

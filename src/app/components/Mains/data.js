@@ -31,7 +31,7 @@ const education = {
     },
     minor: {
       label: '- Bachelor`s degree in Civil Engineering:',
-      value: 'energy and transport structural engineering, special structures.',
+      value: 'energy and transport structures engineering, special structures.',
     },
   },
   lt: {
@@ -50,7 +50,7 @@ const education = {
 
 const experiance = {
   en: {
-    label: 'Work Experiance',
+    label: 'Work Experience',
     list: [
       {
         logo: {
@@ -61,7 +61,7 @@ const experiance = {
         title: 'ViaCon Baltic',
         subtitle: 'Head of Technical Department, 2017.01 - present',
         responsibilities: [
-          'Concentration on new R&D areas in company group scale,',
+          'Concentration on new Research & Development areas on company group scale,',
           'Care of technical department and activity planning,',
           'Company and technical department processes and sub-processes improvement,',
           'Distribution and tracking of long-term tasks,',
@@ -81,8 +81,7 @@ const experiance = {
           'Technical department processes and sub-processes improvement,',
           'Distribution of daily and long-term tasks,',
           'Project analysis and design,',
-          'Organizing and planing seminars,',
-          'Help for Technical Director.',
+          'Organizing and planning seminars.',
         ],
       },
       {
@@ -148,8 +147,7 @@ const experiance = {
           'Techninio skyriaus procesų ir sub-procesų tobulinimas,',
           'Kasdieninių ir ilgalaikių užduočių paskirstymas,',
           'Projektų analizė ir projektavimas,',
-          'Seminarų planavimas ir organizavimas,',
-          'Pagalba technikos direktoriui.',
+          'Seminarų planavimas ir organizavimas.',
         ],
       },
       {
@@ -241,7 +239,7 @@ const achievements = {
       {
         title: 'Vilniaus Gedimino Technikos Universitetas',
         responsibilities: [
-          'Sertifikuotas kaip vienas geriausių 2009 ir 2011 mokslo metų technikos universitetų absolventų.',
+          'Sertifikuotas kaip vienas geriausių 2009 ir 2011 mokslo metų techniškųjų universitetų absolventų.',
         ],
       },
     ],
@@ -250,7 +248,7 @@ const achievements = {
 
 const technologies = {
   en: {
-    label: 'Technologies Experiance',
+    label: 'Technologies Experience',
     list: [
       {
         logo: {
@@ -587,9 +585,9 @@ const strengths = {
   en: {
     label: 'Strengths',
     list: [
-      '- Teamwork and people leadership experiance,',
+      '- Teamwork and people leadership experience,',
       '- Bachelor`s and Master`s degree in engineering,',
-      '- Receptive on new things,',
+      '- Quickly learning new things,',
       '- Planning and Responsibility,',
       '- Reaching the goal,',
       '- Attention to details.',
@@ -630,18 +628,18 @@ const hobies = {
     label: 'Hobbies',
     list: [
       'Active leisure,',
-      'Traveling,',
-      'Playing and watching baskelball,',
-      'Coding ☺️',
+      'traveling,',
+      'playing and watching basketball,',
+      'coding ☺️',
     ],
   },
   lt: {
     label: 'Pomėgiai',
     list: [
       'Aktyvus laisvalaikis,',
-      'Keliavimas,',
-      'Krepšinis,',
-      'Programavimas ☺️',
+      'keliavimas,',
+      'krepšinis,',
+      'programavimas ☺️',
     ],
   },
 };

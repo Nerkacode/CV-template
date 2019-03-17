@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/CV-template/static/media/nodejs.f8dab57d.png"
   },
   {
-    "revision": "ebdaeb4978a9e7ec9f1d",
+    "revision": "4a933477fddaec572a9c",
     "url": "/CV-template/static/css/main.ea9499e2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/CV-template/static/js/2.d98f70d8.chunk.js"
   },
   {
-    "revision": "690ad5a0a2669a82644050d21c51d039",
-    "url": "/CV-template/static/media/NB_pic.690ad5a0.PNG"
+    "revision": "b520a34ec7b34af54e17fd2fc8b67533",
+    "url": "/CV-template/static/media/NB_pic.b520a34e.PNG"
   },
   {
     "revision": "aba0fea4ecaadb5e02e61a75447f6c7e",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/CV-template/static/media/javascript.1f0f3724.png"
   },
   {
-    "revision": "ebdaeb4978a9e7ec9f1d",
-    "url": "/CV-template/static/js/main.ebdaeb49.chunk.js"
+    "revision": "4a933477fddaec572a9c",
+    "url": "/CV-template/static/js/main.4a933477.chunk.js"
   },
   {
     "revision": "73e24896289a49f3365faf66faec2f65",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/CV-template/static/css/2.d69652de.chunk.css"
   },
   {
-    "revision": "1651b918c29dea66d2ea9cf0a5238e9c",
+    "revision": "4c706aab01cb400494bdc1f85c88c13f",
     "url": "/CV-template/index.html"
   }
 ];

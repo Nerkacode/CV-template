@@ -1,49 +1,48 @@
-import viacon from './viacon.png';
-import sweco from './sweco.png';
-import reactLogo from './react.png';
-import html5Logo from './html5.png';
-import css3Logo from './css3.png';
-import jsLogo from './javascript.png';
-import nodejsLogo from './nodejs.png';
-import vuejsLogo from './vuejs.png';
-import npmLogo from './npm.png';
-import gulpLogo from './gulp.png';
-import sassLogo from './sass.png';
-import githubLogo from './github.png';
-import reduxLogo from './redux.png';
-import eslintLogo from './eslint.png';
-import visualstudioLogo from './visualstudio.png';
-import browsersyncLogo from './browsersync.png';
-import mongodbLogo from './mongodb.png';
-import bootstrapLogo from './bootstrap.png';
-import expressLogo from './express.png';
-import mongooseLogo from './mongoose.png';
-import insomniaLogo from './insomnia.png';
-import robo3tLogo from './robo3t.png';
+import viacon from './logos/viacon.png';
+import sweco from './logos/sweco.png';
+import reactLogo from './logos/react.png';
+import html5Logo from './logos/html5.png';
+import css3Logo from './logos/css3.png';
+import jsLogo from './logos/javascript.png';
+import nodejsLogo from './logos/nodejs.png';
+import vuejsLogo from './logos/vuejs.png';
+import npmLogo from './logos/npm.png';
+import gulpLogo from './logos/gulp.png';
+import sassLogo from './logos/sass.png';
+import githubLogo from './logos/github.png';
+import reduxLogo from './logos/redux.png';
+import eslintLogo from './logos/eslint.png';
+import visualstudioLogo from './logos/visualstudio.png';
+import browsersyncLogo from './logos/browsersync.png';
+import mongodbLogo from './logos/mongodb.png';
+import bootstrapLogo from './logos/bootstrap.png';
+import expressLogo from './logos/express.png';
+import mongooseLogo from './logos/mongoose.png';
+import insomniaLogo from './logos/insomnia.png';
+import robo3tLogo from './logos/robo3t.png';
 
 const education = {
   en: {
     label: 'Education',
     school: 'Vilnius Gediminas Technical University',
     major: {
-      label: 'Master`s degree - Civil Engineering',
-      value: '- Building structures, special structures',
+      label: '- Master`s degree in Civil Engineering:',
+      value: 'building structures, special structures.',
     },
     minor: {
-      label: 'Bachelor`s degree - Civil Engineering',
-      value:
-        '- Energy and transport structural engineering, special structures',
+      label: '- Bachelor`s degree in Civil Engineering:',
+      value: 'energy and transport structural engineering, special structures.',
     },
   },
   lt: {
     label: 'Išsilavinimas',
     school: 'Vilniaus Gedimino Technikos Universitetas',
     major: {
-      label: 'Magistro laipsnis - statybos inžinerija',
+      label: 'Statybos inžinerijos Magistro laipsnis',
       value: '- statinių konstrukcijos, specialieji statiniai',
     },
     minor: {
-      label: 'Bakalauro laipsnis - statybos inžinerija',
+      label: 'Statybos inžinerijos Bakalauro laipsnis',
       value: '- energetikos ir transporto statyba, energetikos statiniai',
     },
   },
@@ -62,8 +61,11 @@ const experiance = {
         title: 'ViaCon Baltic',
         subtitle: 'Head of Technical Department, 2017.01 - present',
         responsibilities: [
-          'Technical department activity planning,',
-          'blabla.',
+          'Concentration on new R&D areas in company group scale,',
+          'Care of technical department and activity planning,',
+          'Company and technical department processes and sub-processes improvement,',
+          'Distribution and tracking of long-term tasks,',
+          'Project analysis and design.',
         ],
       },
       {
@@ -77,7 +79,8 @@ const experiance = {
         responsibilities: [
           'Technical department activity planning,',
           'Technical department processes and sub-processes improvement,',
-          'Distribution of tasks,',
+          'Distribution of daily and long-term tasks,',
+          'Project analysis and design,',
           'Organizing and planing seminars,',
           'Help for Technical Director.',
         ],
@@ -108,7 +111,7 @@ const experiance = {
         responsibilities: [
           'Project analysis,',
           'Design of steel and reinforced concrete structures,',
-          'FEM modeling, structural calculations, drawing.',
+          'FEM modeling, construction calculations, drawing.',
         ],
       },
     ],
@@ -124,7 +127,13 @@ const experiance = {
         link: 'http://viacon.lt/',
         title: 'ViaCon Baltic',
         subtitle: 'Techninio skyriaus vadovas, 2017.01 - dabar',
-        responsibilities: ['Techninio skyriaus veiklos planavimas,', 'blabla.'],
+        responsibilities: [
+          'Dėmesys ir koncentracija ties naujomis tyrimų ir plėtros sritimis įmonių grupės lygiu,',
+          'Techninio skyriaus priežiūra ir veiklos planavimas,',
+          'Įmonės ir techninio skyriaus procesų ir sub-procesų tobulinimas,',
+          'Ilgalaikių užduočių paskirstymas ir stebėjimas,',
+          'Projektų analizė ir projektavimas.',
+        ],
       },
       {
         logo: {
@@ -137,9 +146,10 @@ const experiance = {
         responsibilities: [
           'Techninio skyriaus veiklos planavimas,',
           'Techninio skyriaus procesų ir sub-procesų tobulinimas,',
-          'Užduočių paskirstymas,',
+          'Kasdieninių ir ilgalaikių užduočių paskirstymas,',
+          'Projektų analizė ir projektavimas,',
           'Seminarų planavimas ir organizavimas,',
-          'Pagalba techniniamdirektoriui.',
+          'Pagalba technikos direktoriui.',
         ],
       },
       {
@@ -181,7 +191,7 @@ const achievements = {
     list: [
       {
         title: 'Code Academy',
-        subtitle: 'Finished advanced Front-end coding courses (480 hours):',
+        subtitle: 'Finished advanced Front-end developer courses (480 hours):',
         responsibilities: [
           'HTML/CSS (80h),',
           'JavaScript (120h),',
@@ -192,13 +202,14 @@ const achievements = {
       },
       {
         title: 'NKKM IT training agency',
-        subtitle: 'Finished beginers WEB coding courses (140 academic hours):',
+        subtitle:
+          'Finished beginers WEB developer courses (140 academic hours):',
         responsibilities: ['HTML/CSS and JavaScript (80ah),', 'PHP (60ah).'],
       },
       {
         title: 'Vilnius Gediminas Technical University',
         responsibilities: [
-          'Certificated as one of the best technical universities graduate in 2009 and 2011',
+          'Certificated as one of the best technical universities graduate in 2009 and 2011.',
         ],
       },
     ],
@@ -230,7 +241,7 @@ const achievements = {
       {
         title: 'Vilniaus Gedimino Technikos Universitetas',
         responsibilities: [
-          'Sertifikuotas kaip vienas geriausių 2009 ir 2011 mokslo metų technikos universitetų absolventų',
+          'Sertifikuotas kaip vienas geriausių 2009 ir 2011 mokslo metų technikos universitetų absolventų.',
         ],
       },
     ],
@@ -239,7 +250,7 @@ const achievements = {
 
 const technologies = {
   en: {
-    label: 'Technologies',
+    label: 'Technologies Experiance',
     list: [
       {
         logo: {
@@ -405,7 +416,7 @@ const technologies = {
     ],
   },
   lt: {
-    label: 'Technologijos',
+    label: 'Technologijų patirtis',
     list: [
       {
         logo: {
@@ -568,6 +579,48 @@ const technologies = {
         link: 'https://github.com/',
         title: 'github',
       },
+    ],
+  },
+};
+
+const strengths = {
+  en: {
+    label: 'Strengths',
+    list: [
+      '- Teamwork and people leadership experiance,',
+      '- Bachelor`s and Master`s degree in engineering,',
+      '- Receptive on new things,',
+      '- Planning and Responsibility,',
+      '- Reaching the goal,',
+      '- Attention to details.',
+    ],
+  },
+  lt: {
+    label: 'Stipriosios savybės',
+    list: [
+      '- Komandinio darbo ir vadovavimo darbuotojams patirtis,',
+      '- Bakalauros ir Magistro laipsnis inžinerinėje srityje,',
+      '- Imlumas naujovėms,',
+      '- Planavimas ir atsakingumas,',
+      '- Tikslo siekimas,',
+      '- Atidumas detalėms.',
+    ],
+  },
+};
+
+const languages = {
+  en: {
+    label: 'Languages',
+    list: [
+      'Lithuanian - native,',
+      'English - speaking (B2), understanding (C1), writing (B2).',
+    ],
+  },
+  lt: {
+    label: 'Kalbos',
+    list: [
+      'Lietuvių - gimtoji,',
+      'Anglų - kalbėjimas (B2), supratimas (C1), rašymas (B2).',
     ],
   },
 };
@@ -575,12 +628,17 @@ const technologies = {
 const hobies = {
   en: {
     label: 'Hobbies',
-    list: ['Active leisure,', 'Traveling,', 'Playing baskelball,', 'Coding ☺️'],
+    list: [
+      'Active leisure,',
+      'Traveling,',
+      'Playing and watching baskelball,',
+      'Coding ☺️',
+    ],
   },
   lt: {
     label: 'Pomėgiai',
     list: [
-      'Aktyvus laisalaikis,',
+      'Aktyvus laisvalaikis,',
       'Keliavimas,',
       'Krepšinis,',
       'Programavimas ☺️',
@@ -588,4 +646,12 @@ const hobies = {
   },
 };
 
-export { education, experiance, achievements, technologies, hobies };
+export {
+  education,
+  experiance,
+  achievements,
+  technologies,
+  hobies,
+  languages,
+  strengths,
+};

@@ -2,7 +2,9 @@
   "name": "starter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nerkacode.github.io/CV-template",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -12,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "random": "echo 'Hello Random'",

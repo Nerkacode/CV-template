@@ -7,7 +7,7 @@ import './index.scss';
 
 function Header(props) {
   const { language, onLanguage } = props;
-  const { name, contacts, summary, picture } = data[language];
+  const { name, contacts, location, summary, picture } = data[language];
 
   return (
     <header className="Header">
@@ -26,6 +26,7 @@ function Header(props) {
           {contacts.email.value}
         </a>
       </p>
+      <p className="Header--contact">{location}</p>
       <p className="Header--summary">{summary}</p>
       <img
         className="Header--profile-picture"

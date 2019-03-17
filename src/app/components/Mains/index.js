@@ -6,6 +6,8 @@ import {
   achievements,
   technologies,
   hobies,
+  languages,
+  strengths,
 } from './data';
 import './index.scss';
 
@@ -95,6 +97,29 @@ function Main(props) {
           ))}
         </div>
       </section>
+
+      <section className="Section">
+        <div className="Section--left">
+          <h3>{strengths[language].label}</h3>
+        </div>
+        <div className="Section--right">
+          {strengths[language].list.map((value, i) => (
+            <p key={i}> {value} </p>
+          ))}
+        </div>
+      </section>
+
+      <section className="Section">
+        <div className="Section--left">
+          <h3>{languages[language].label}</h3>
+        </div>
+        <div className="Section--right">
+          {languages[language].list.map((value, i) => (
+            <p key={i}> {value} </p>
+          ))}
+        </div>
+      </section>
+
       <section className="Section">
         <div className="Section--left">
           <h3>{hobies[language].label}</h3>

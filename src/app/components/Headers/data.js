@@ -15,10 +15,11 @@ const data = {
         value: 'nerijus.bareikis@gmail.com',
       },
     },
+    location: 'Vilnius, Lithuania',
     summary:
-      'Pastry pie cotton candy jelly lollipop chocolate bar pastry tootsie roll.Brownie soufflé liquorice pudding muffin.Sugar plum toffee oat cake gummies lollipop icing.Bonbon chocolate bar chocolate cake marzipan candy canes.Gingerbread halvah wafer cotton candy marzipan candy canes candy carrot cake.Oat cake carrot cake powder bear claw biscuit sweet roll.Muffin topping ice cream soufflé sweet roll oat cake chocolate bar pastry.',
+      'Innovative solution seeker and planner. Excited about my career as a web developer. Persistent on learning new things, honest and friendly. Always oriented and concentrated on teamwork rezults.',
     picture: {
-      alt: 'This is me',
+      alt: 'NerijusB',
       src: me,
     },
   },
@@ -34,10 +35,11 @@ const data = {
         value: 'nerijus.bareikis@gmail.com',
       },
     },
+    location: 'Vilnius, Lietuva',
     summary:
-      'Pastry pie cotton candy jelly lollipop chocolate bar pastry tootsie roll.Brownie soufflé liquorice pudding muffin.Sugar plum toffee oat cake gummies lollipop icing.Bonbon chocolate bar chocolate cake marzipan candy canes.Gingerbread halvah wafer cotton candy marzipan candy canes candy carrot cake.Oat cake carrot cake powder bear claw biscuit sweet roll.Muffin topping ice cream soufflé sweet roll oat cake chocolate bar pastry.',
+      'Inovatyvus sprendimo ieškotojas ir planuotojas. Sužavėtas savo programuotojo karjera. Užsispyręs išmokti naujų dalykų, sąžiningas ir draugiškas. Nuolatos orientuotas ir susikoncentravęs ties komndinio darbo rezultatais.',
     picture: {
-      alt: 'Tai aš',
+      alt: 'NerijusB',
       src: me,
     },
   },
